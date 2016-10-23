@@ -1,4 +1,4 @@
--- using 1433771997 as a seed to the RNG
+-- using 1477226903 as a seed to the RNG
 
 
 explain select
@@ -34,7 +34,7 @@ where
 			and l3.l_receiptdate > l3.l_commitdate
 	)
 	and s_nationkey = n_nationkey
-	and n_name = 'GERMANY'
+	and n_name = 'UNITED KINGDOM'
 group by
 	s_name
 order by
