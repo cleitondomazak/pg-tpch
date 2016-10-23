@@ -1,4 +1,4 @@
--- using 1433771997 as a seed to the RNG
+-- using 1477226903 as a seed to the RNG
 
 
 select
@@ -18,8 +18,8 @@ from
 where
 	c_custkey = o_custkey
 	and l_orderkey = o_orderkey
-	and o_orderdate >= date '1994-01-01'
-	and o_orderdate < date '1994-01-01' + interval '3' month
+	and o_orderdate >= date '1993-07-01'
+	and o_orderdate < date '1993-07-01' + interval '3' month
 	and l_returnflag = 'R'
 	and c_nationkey = n_nationkey
 group by
